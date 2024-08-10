@@ -442,7 +442,7 @@ def main():
 
     # define parser for get_file_form
     get_file_form_parser = subparsers.add_parser('get_file_form', 
-                    help='fetch the specified system property from the router')
+                    help='fetch the specified file from the router')
     get_file_form_parser.add_argument("path",
                     type=str,
                     help="path of the file you wish to fetch")
